@@ -4,9 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="SOMA AlterCleaners — dry cleaning, tailoring, and garment care in San Francisco. Classic site." />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>SOMA AlterCleaners | San Francisco</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=3" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
+  <style>
+    /* Force-remove legacy black hero if cached */
+    .hero-home, .hero-home__canvas, .hero-home__scroll { display: none !important; height: 0 !important; min-height: 0 !important; }
+    #home.intro-banner {
+      background: #425cc2;
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1.25rem;
+    }
+    #home.intro-banner h2 {
+      font-family: "Open Sans", sans-serif;
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+    }
+    #home.intro-banner p {
+      max-width: 640px;
+      margin: 0 auto;
+      font-size: 15px;
+      line-height: 1.75;
+      opacity: 0.95;
+    }
+  </style>
 </head>
 <body>
 
@@ -59,10 +86,6 @@
       <h2>We Want You To Look Even Sharper!</h2>
       <p>We are a woman owned and operated dry cleaning and alteration services with over 15 years of experience in San Francisco. We love our customers and wanted to not only make their live easier but give them more time to do things that are more important.</p>
     </section>
-
-    <div class="hero-image">
-      <img src="assets/alter1.jpg" alt="Expert tailoring at SOMA AlterCleaners" />
-    </div>
 
     <section class="bg-alfa">
       <div class="section-header">
@@ -499,6 +522,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=3"></script>
+  <script src="js/main.js?v=5"></script>
 </body>
 </html>
