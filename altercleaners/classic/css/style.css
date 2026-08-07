@@ -174,12 +174,13 @@ ul { list-style: none; }
 .section-header.dark { background: var(--dark); }
 .section-header.dark h2 { color: #fff; }
 
-/* Hero */
+/* Hero photo (below intro — optional visual) */
 .hero-image img {
   width: 100%;
-  max-height: min(70vh, 560px);
+  max-height: min(45vh, 420px);
   object-fit: cover;
-  object-position: center;
+  object-position: center 20%;
+  display: block;
 }
 
 /* Portfolio / service boxes */
