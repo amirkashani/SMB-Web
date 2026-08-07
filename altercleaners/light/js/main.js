@@ -4,7 +4,7 @@
   const mobileNav = document.querySelector('.nav-mobile');
 
   const onScroll = () => {
-    header.classList.toggle('scrolled', window.scrollY > 40);
+    header.classList.toggle('scrolled', window.scrollY > 8);
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
@@ -35,13 +35,15 @@
         }
       });
     },
-    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    { threshold: 0.08, rootMargin: '0px 0px -32px 0px' }
   );
 
-  document.querySelectorAll('.service-card, .about__content, .contact__grid').forEach((el) => {
+  document.querySelectorAll(
+    '.portfolio-card, .about-owner__grid, .care-card, .service-feature, .dry-clean-card, .price-section, .policy__content, .contact__grid'
+  ).forEach((el) => {
     el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1)';
+    el.style.transform = 'translateY(16px)';
+    el.style.transition = 'opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
     observer.observe(el);
   });
 

@@ -3,157 +3,508 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="SOMA AlterCleaners — premium dry cleaning, tailoring, and garment care in San Francisco. Woman-owned. 15+ years of excellence." />
+  <meta name="description" content="SOMA AlterCleaners — woman-owned dry cleaning, tailoring, and garment care in San Francisco. 15+ years at Howard & Spear." />
   <title>SOMA AlterCleaners | San Francisco</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
 </head>
 <body class="theme-light">
-  <div class="grain" aria-hidden="true"></div>
+  <div class="topbar">
+    <div class="topbar__inner">
+      <span><a href="tel:4157779995">415-777-9995</a></span>
+      <span><a href="mailto:services@altercleaners.com">services@altercleaners.com</a></span>
+    </div>
+  </div>
 
   <header class="header" id="header">
     <div class="header__inner">
-      <a href="#" class="logo">
-        <img src="../assets/alter-logo3.png" alt="SOMA AlterCleaners" width="140" height="48" />
+      <a href="#home" class="logo">
+        <img src="../assets/logow.png" alt="SOMA AlterCleaners" width="140" height="48" />
       </a>
       <nav class="nav" aria-label="Main">
+        <a href="#home">Home</a>
         <a href="#services">Services</a>
-        <a href="#about">About</a>
+        <a href="#prices">Price List</a>
+        <a href="#policy">Policy</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a href="tel:4157779995" class="btn btn--header">Call Now</a>
+      <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--header">Schedule Pickup</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
     <div class="nav-mobile" hidden>
+      <a href="#home">Home</a>
       <a href="#services">Services</a>
-      <a href="#about">About</a>
+      <a href="#prices">Price List</a>
+      <a href="#policy">Policy</a>
       <a href="#contact">Contact</a>
-      <a href="tel:4157779995" class="btn">415-777-9995</a>
+      <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup">Schedule Pickup</a>
+      <a href="tel:4157779995">415-777-9995</a>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero__bg">
-        <img src="../assets/mainimage1.jpg" alt="" />
-        <div class="hero__overlay"></div>
-      </div>
-      <div class="hero__content">
-        <p class="hero__eyebrow reveal">San Francisco · Est. 15+ Years</p>
-        <h1 class="hero__title reveal">
-          Look <em>Sharper</em><br />Feel <em>Finer</em>
-        </h1>
-        <p class="hero__lead reveal">
-          Woman-owned dry cleaning, tailoring, and couture care — crafted with precision in the heart of SOMA.
-        </p>
-        <div class="hero__actions reveal">
-          <a href="#contact" class="btn btn--primary">Get in Touch</a>
-          <a href="tel:4157779995" class="btn btn--ghost">415-777-9995</a>
+    <section class="hero" id="home">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__badge reveal">
+            <img src="../assets/owner-sm.png" alt="SOMA AlterCleaners owner" width="52" height="52" />
+            Woman-Owned · San Francisco · 15+ Years
+          </p>
+          <h1 class="hero__title reveal">We Want You To Look Even Sharper!</h1>
+          <p class="hero__deck reveal">
+            We are a woman owned and operated dry cleaning and alteration services with over 15 years of experience in San Francisco. We love our customers and wanted to not only make their live easier but give them more time to do things that are more important.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--gold">Schedule a Pickup</a>
+            <a href="#services" class="btn btn--ghost" style="border-color: rgba(255,255,255,0.5); color: #fff;">Our Services</a>
+          </div>
+        </div>
+        <div class="hero__visual reveal">
+          <img src="../assets/alter33.jpg" alt="Expert tailoring and garment care" />
         </div>
       </div>
-      <a href="#services" class="hero__scroll" aria-label="Scroll to services">
-        <span></span>
-      </a>
     </section>
 
-    <section class="marquee" aria-hidden="true">
-      <div class="marquee__track">
-        <span>Dry Cleaning</span><span class="dot">·</span>
-        <span>Tailoring & Alterations</span><span class="dot">·</span>
-        <span>Bridal & Couture</span><span class="dot">·</span>
-        <span>Leather & Handbags</span><span class="dot">·</span>
-        <span>Rug Restoration</span><span class="dot">·</span>
-        <span>Wash & Fold</span><span class="dot">·</span>
-        <span>Pickup & Delivery</span><span class="dot">·</span>
-        <span>Dry Cleaning</span><span class="dot">·</span>
-        <span>Tailoring & Alterations</span><span class="dot">·</span>
-        <span>Bridal & Couture</span><span class="dot">·</span>
-        <span>Leather & Handbags</span><span class="dot">·</span>
-        <span>Rug Restoration</span><span class="dot">·</span>
-        <span>Wash & Fold</span><span class="dot">·</span>
-        <span>Pickup & Delivery</span><span class="dot">·</span>
+    <section class="services-overview" aria-labelledby="services-overview-title">
+      <div class="container">
+        <div class="section-head section-head--center section-head--tight">
+          <span class="section-head__label">What We Offer</span>
+          <h2 class="section-head__title" id="services-overview-title">Available Services</h2>
+          <div class="section-head__ornament"><span></span></div>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/alter.jpg" alt="Expert tailoring and alteration" /></a>
+            <div class="portfolio-card__body">
+              <h3>Expert tailoring and alteration</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/dry.jpg" alt="Dry Cleaning" /></a>
+            <div class="portfolio-card__body">
+              <h3>Dry Cleaning</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/bridal.jpg" alt="Bridal and Couture" /></a>
+            <div class="portfolio-card__body">
+              <h3>Bridal and Couture</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/fold.jpg" alt="Wash and Fold Laundry" /></a>
+            <div class="portfolio-card__body">
+              <h3>Wash and Fold Laundry</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/bag.jpg" alt="Handbag, Suede, Leather and Fur" /></a>
+            <div class="portfolio-card__body">
+              <h3>Handbag, Suede, Leather and Fur</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <a href="#services"><img src="../assets/rug.jpg" alt="Rugs Cleaning and Restoration" /></a>
+            <div class="portfolio-card__body">
+              <h3>Rugs Cleaning and Restoration</h3>
+              <p>If you are pressed for time and don't like to spend hours on your laundry, we get it and would gladly do it for you!</p>
+            </div>
+          </article>
+          <article class="portfolio-card portfolio-card--wide">
+            <div class="portfolio-card__body">
+              <h3>Pick up and Delivery</h3>
+              <p>If you are pressed for time and don't like to spend hours on your laundry, we get it and would gladly do it for you! We offer pickup and delivery across San Francisco for dry cleaning, wash &amp; fold, and household items.</p>
+              <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--gold">Email to Schedule</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-owner" id="about">
+      <div class="container about-owner__grid">
+        <div class="about-owner__portrait">
+          <img src="../assets/owner-sm.png" alt="Owner of SOMA AlterCleaners" />
+        </div>
+        <div class="about-owner__content">
+          <span class="section-head__label">Our Story</span>
+          <h2>Woman-Owned Craftsmanship in the Heart of SOMA</h2>
+          <p>Every garment that comes through our doors is treated with the care of a small atelier — not a factory line. From couture gowns to everyday favorites, we believe your clothes deserve hands that understand fabric, fit, and finish.</p>
+          <p>Our fitting department is overseen by fashion designer Shohre Rahmani, San Francisco Academy of Art alumni, ensuring every alteration accentuates your figure and every piece leaves looking its absolute best.</p>
+          <ul class="about-owner__stats">
+            <li><strong>15+</strong><span>Years in SF</span></li>
+            <li><strong>100%</strong><span>Craftsmanship Guarantee</span></li>
+            <li><strong>SOMA</strong><span>201 Spear Street</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="care" id="care">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="section-head__label">Expert Advice</span>
+          <h2 class="section-head__title">Garment Care</h2>
+          <div class="section-head__ornament"><span></span></div>
+        </div>
+        <div class="care__grid">
+          <article class="care-card">
+            <img src="../assets/quality.jpg" alt="Buy quality pieces" />
+            <div>
+              <h3>Buy quality pieces</h3>
+              <p>By investing in quality pieces that don't go out of style you can create a base wardrobe that last you longer. Then you can splurge on heaper less expensive trendy seasonal items without breaking the bank.</p>
+            </div>
+          </article>
+          <article class="care-card">
+            <img src="../assets/dry15.jpg" alt="Dry Cleaning more often" />
+            <div>
+              <h3>Dry Cleaning more offen</h3>
+              <p>Some Fabrics swell when exposed to water, the heat and mechanical action of the washing cycle can permanently damager the fibers. None of this happens when you use dry cleaning.</p>
+            </div>
+          </article>
+          <article class="care-card">
+            <img src="../assets/repair.jpg" alt="Repair and Alteration" />
+            <div>
+              <h3>Repair and Alteration</h3>
+              <p>If you notice a small rip, fallen hem or loose tread let us know to repair it. It is always easier to take care of a new stain in a professional manner than dealing with an old one. When spots are treated improperly, they turn into a tough stain and removing them becomes harder and sometimes impossible.</p>
+            </div>
+          </article>
+          <article class="care-card">
+            <img src="../assets/tight.jpg" alt="Fit matters" />
+            <div>
+              <h3>Fit matters</h3>
+              <p>Alteration makes you look good because fit matters. By wearing the right fit for your body you can avoid unnecessary wear and tear.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="services" id="services">
       <div class="container">
-        <div class="section-head">
-          <span class="section-head__label">What We Do</span>
-          <h2 class="section-head__title">Services</h2>
+        <div class="section-head section-head--center">
+          <span class="section-head__label">Full Details</span>
+          <h2 class="section-head__title">Our Services</h2>
+          <div class="section-head__ornament"><span></span></div>
         </div>
-        <div class="services__grid">
-          <article class="service-card">
-            <span class="service-card__num">01</span>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/alter1.jpg" alt="Expert tailoring and alteration" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Tailoring &amp; Alteration</p>
+            <h3>Expert tailoring and alteration</h3>
+            <p>Our fitting is done by fashion designer and San Francisco Academy of Art Alumni in Fashion design, Shohre Rahmani. She oversees this department and makes sure that you walk up with styles and your wardrobe accentuates your figure. Our alteration team is working full time, six days a week to accommodate our clients. We welcome our walk-ins during our working hours; in addition. For fitting appointment click below.</p>
+            <a href="mailto:services@altercleaners.com?subject=Book%20an%20Appointment" class="btn btn--primary">Email to Book</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/dry1.jpg" alt="Dry Cleaning" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup Schedule available</p>
             <h3>Dry Cleaning</h3>
-            <p>Expert fabric care with 15+ years at Howard & Spear. Stains treated, garments returned immaculate.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-card__num">02</span>
-            <h3>Tailoring & Alterations</h3>
-            <p>Precision fit by our alteration team. From hems to full restyling — your wardrobe, perfected.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-card__num">03</span>
-            <h3>Bridal & Couture</h3>
-            <p>Delicate handling for gowns and designer pieces. Free consultation for specialty garments.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-card__num">04</span>
-            <h3>Leather & Handbags</h3>
-            <p>Specialist cleaning for leather, suede, and fur. Natural oils preserved, texture restored.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-card__num">05</span>
-            <h3>Rug Restoration</h3>
-            <p>Silk, wool, and antique rugs cleaned and repaired. Burns, spills, and holes corrected.</p>
-          </article>
-          <article class="service-card service-card--featured">
-            <div class="service-card__image">
-              <img src="../assets/sanfrancisco.jpg" alt="San Francisco skyline" />
+            <p>We have over 15 years of Dry Cleaning at Howard and Spear location. We have made sure that your pieces are handled by people who have high knowledge of fabrics and they know how to remove or lessen the appearance of ugly stains.</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/wash2.jpg" alt="Wash and Fold Laundry" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup Schedule available</p>
+            <h3>Wash and Fold Laundry</h3>
+            <p>If you are pressed for time and don't like to spend hours on your laundry, we get it and would gladly do it for you!</p>
+            <h4>Household items</h4>
+            <p>Whether it's a bedspread, blanket, covers or more we clean your household item with the love necessary so that they look their best.</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/bridal1.jpg" alt="Bridal and Couture" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Free consultation available</p>
+            <h3>Bridal and Couture</h3>
+            <p>Our expert team will consider the material, construction and detailing of each garment before recommending the most appropriate treatment. Whether your garment requires dry-cleaning, laundering or hand wash treatment, we have the gentlest technology at our disposal to carefully clean your couture item</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/leather1.jpg" alt="Suede, Leather and Fur" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup schedule available</p>
+            <h3>Suede, Leather and Fur</h3>
+            <p>The thorough cleaning of any item that is tailored from leather, suede or Fur (Vegan or natural) requires expertise of an specialist. Natural oils in suedes and leathers can harm the texture if not properly cared for, so our technicians inspect each garment before selecting the most appropriate procedure.</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/bag1.jpg" alt="Handbag Cleaning" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup schedule available</p>
+            <h3>Handbag Cleaning</h3>
+            <p>Handbags are considered investment pieces that least season after season. But handbags, totes, clutches and satchels have a rough life and over the years loose their appearances. At AlterCleaners we clean, restore and even repair your investment bags!</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/rug1.jpg" alt="Rugs Cleaning and Restoration" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup schedule available</p>
+            <h3>Rugs- Cleaning and Restoration</h3>
+            <p>Whether it's silk or wool, we have the experts to clean and restore your valuable rug. We also can correct, enhance any burns, spills, holes and stains. We understand that transporting rugs in San Francisco can be cumbersome so for the bulky items we offer complimentary collection and delivery service at your door.</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+
+        <article class="service-feature">
+          <div class="service-feature__media">
+            <img src="../assets/sanfrancisco.jpg" alt="Pick up and Delivery in San Francisco" />
+          </div>
+          <div class="service-feature__body">
+            <p class="service-feature__tag">Pickup schedule available</p>
+            <h3>Pick up and Delivery</h3>
+            <p>If you are pressed for time and don't like to spend hours on your laundry, we get it and would gladly do it for you! We offer pickup and delivery across San Francisco for dry cleaning, wash &amp; fold, and household items. For bulky items like rugs, we offer complimentary collection and delivery at your door.</p>
+            <a href="mailto:services@altercleaners.com?subject=Schedule%20a%20Pickup" class="btn btn--primary">Email to Schedule</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band" aria-label="Tagline">
+      <blockquote>“We want you to look even sharper.”</blockquote>
+      <a href="mailto:services@altercleaners.com" class="btn btn--primary btn--large">Get in Touch</a>
+    </section>
+
+    <section class="prices" id="prices">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="section-head__label">Transparent Rates</span>
+          <h2 class="section-head__title">Price List</h2>
+          <div class="section-head__ornament"><span></span></div>
+        </div>
+
+        <div class="prices-hero">
+          <img src="../assets/closetclothes.jpg" alt="Price List" />
+        </div>
+        <p class="prices__note">"Prices are subject to change without notice"</p>
+
+        <div class="price-section">
+          <h3>Alteration</h3>
+          <div class="price-table-wrap">
+            <table>
+              <thead><tr><th>Item</th><th>Price</th></tr></thead>
+              <tbody>
+                <tr><td>Pants Regular Hem</td><td>$18.00</td></tr>
+                <tr><td>Pants-Waist in</td><td>$45.00</td></tr>
+                <tr><td>Dress Zipper</td><td>$55.00</td></tr>
+                <tr><td>Shorten Curtain</td><td>$40.00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="price-section">
+          <h3>Dry Cleaning</h3>
+          <div class="dry-clean-grid">
+            <article class="dry-clean-card">
+              <img src="../assets/suite22.png" alt="Formal" />
+              <h4>Formal</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Cardigan</td><td>$7.95</td></tr>
+                    <tr><td>Coat - Regular</td><td>$16.50</td></tr>
+                    <tr><td>Rain Coat</td><td>$5.00</td></tr>
+                    <tr><td>Suit-2pc</td><td>$16.95</td></tr>
+                    <tr><td>Tuxedo Suit</td><td>$25.00</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+            <article class="dry-clean-card">
+              <img src="../assets/shirt.png" alt="Top" />
+              <h4>Top</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Blouse</td><td>$7.25</td></tr>
+                    <tr><td>Shirt</td><td>$6.95</td></tr>
+                    <tr><td>T-Shirt</td><td>$6.95</td></tr>
+                    <tr><td>Polo Shirt</td><td>$6.95</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+            <article class="dry-clean-card">
+              <img src="../assets/jacket.png" alt="Cover" />
+              <h4>Cover</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Sweater</td><td>$7.45</td></tr>
+                    <tr><td>Sport Jacket</td><td>$12.95</td></tr>
+                    <tr><td>Suit Jacket</td><td>$10.95</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+            <article class="dry-clean-card">
+              <img src="../assets/pants.png" alt="Bottom" />
+              <h4>Bottom</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Pants</td><td>$7.45</td></tr>
+                    <tr><td>Shorts</td><td>$6.95</td></tr>
+                    <tr><td>Skirt</td><td>$7.45</td></tr>
+                    <tr><td>Skirt Pleat</td><td>$8.45</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+            <article class="dry-clean-card">
+              <img src="../assets/dress55.png" alt="Overall" />
+              <h4>Overall</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Dress</td><td>$18.95</td></tr>
+                    <tr><td>Long Dress</td><td>$20.95</td></tr>
+                    <tr><td>Mini Dress</td><td>$14.95</td></tr>
+                    <tr><td>Robe</td><td>$16.00</td></tr>
+                    <tr><td>Gown</td><td>$35.00</td></tr>
+                    <tr><td>Overall</td><td>$14.95</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+            <article class="dry-clean-card">
+              <img src="../assets/vest.png" alt="Accessories" />
+              <h4>Accessories</h4>
+              <div class="price-table-wrap">
+                <table>
+                  <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                  <tbody>
+                    <tr><td>Belt</td><td>$1.00</td></tr>
+                    <tr><td>Hat</td><td>$8.50</td></tr>
+                    <tr><td>Neck Tie</td><td>$5.95</td></tr>
+                    <tr><td>Scarf</td><td>$6.95</td></tr>
+                    <tr><td>Shawl</td><td>$10.95</td></tr>
+                    <tr><td>Vest</td><td>$6.95</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="price-section">
+          <h3>Bedroom</h3>
+          <div class="price-table-wrap">
+            <table>
+              <thead><tr><th>Item</th><th>Price</th></tr></thead>
+              <tbody>
+                <tr><td>Comforter / King</td><td>$65.95</td></tr>
+                <tr><td>Comforter / Queen</td><td>$65.95</td></tr>
+                <tr><td>Comforter / Twin</td><td>$55.95</td></tr>
+                <tr><td>Duvet Cover</td><td>$55.95</td></tr>
+                <tr><td>Table Runner</td><td>$14.00</td></tr>
+                <tr><td>Blanket</td><td>$55.00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="laundry-band">
+          <h3>Laundry — Wash &amp; Fold</h3>
+          <div class="laundry-grid">
+            <div class="laundry-card">
+              <table>
+                <thead><tr><th>Item</th><th>Price</th></tr></thead>
+                <tbody>
+                  <tr><td>Shirt</td><td>$3.25</td></tr>
+                  <tr><td>Pant</td><td>$7.25</td></tr>
+                  <tr><td>Blouse</td><td>$6.95</td></tr>
+                  <tr><td>Comforter / Queen</td><td>$65.95</td></tr>
+                </tbody>
+              </table>
             </div>
-            <div class="service-card__body">
-              <span class="service-card__num">06</span>
-              <h3>Pickup & Delivery</h3>
-              <p>No time for drop-off? We come to you across San Francisco. Wash & fold from $3/lb.</p>
-              <a href="#contact" class="link-arrow">Schedule a pickup →</a>
+            <div class="laundry-card">
+              <h4>Minimum 10 LB</h4>
+              <p style="font-size:2.5rem;opacity:0.35;margin-top:0.5rem;">⚖</p>
             </div>
+            <div class="laundry-card">
+              <h4>How Quick</h4>
+              <table>
+                <thead><tr><th>Wash &amp; Fold</th><th>Price</th></tr></thead>
+                <tbody>
+                  <tr><td>Regular / 2 Days</td><td>$3.00 p/lb</td></tr>
+                  <tr><td>Next Day</td><td>$4.00</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-highlights">
+          <article class="price-highlight">
+            <img src="../assets/bridal3.jpg" alt="Bridal" />
+            <p>Bridal — $300.00</p>
           </article>
+          <article class="price-highlight">
+            <img src="../assets/leather1.jpg" alt="Jacket" />
+            <p>Jacket — $80.00</p>
+          </article>
+          <article class="price-highlight">
+            <img src="../assets/rugs2.jpg" alt="Rugs" />
+            <p>Rugs — $300.00 and up</p>
+          </article>
+        </div>
+
+        <div class="download-bar">
+          <a href="../assets/SomaCleanersMenu.pdf" download class="btn btn--ghost">Download Menu PDF</a>
         </div>
       </div>
     </section>
 
-    <section class="about" id="about">
-      <div class="about__visual">
-        <img src="../assets/alter33.jpg" alt="Tailoring and garment care" />
-        <div class="about__frame"></div>
+    <section class="policy" id="policy">
+      <div class="policy-hero">
+        <h2>We Thrive for Your Satisfaction</h2>
       </div>
-      <div class="about__content">
-        <span class="section-head__label">Our Story</span>
-        <h2 class="about__title">Woman-Owned.<br />San Francisco Proud.</h2>
-        <p>
-          We are a woman-owned and operated dry cleaning and alteration studio with over 15 years of experience in San Francisco. We love our customers — and we built this business to give you more time for what matters.
-        </p>
-        <p>
-          Our fitting department is overseen by fashion designer Shohre Rahmani, ensuring every alteration accentuates your figure and every garment leaves looking its absolute best.
-        </p>
-        <ul class="about__stats">
-          <li><strong>15+</strong><span>Years in SF</span></li>
-          <li><strong>100%</strong><span>Craftsmanship Guarantee</span></li>
-          <li><strong>SOMA</strong><span>Spear Street</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="container cta__inner">
-        <blockquote class="cta__quote">
-          “We want you to look even sharper.”
-        </blockquote>
-        <a href="mailto:services@altercleaners.com" class="btn btn--primary btn--large">Email Us</a>
+      <div class="container container--narrow policy__content">
+        <h3>Within 24 Hours of Receipt</h3>
+        <p>Thrive for your satisfaction and will do everything in our power to provide you with superb service. We use a barcoding service that avoids 99.9% of lost clothing and allows us to track your items. In a rare occasion that an item is misplaced, please contact us immediately. We will track the item down for you.</p>
+        <p>We at AlterCleaners stand behind the quality of our craftsmanship 100%. If you are not completely pleased with the results of your cleaned garment, we will re-clean it on a complimentary basis. We do ask that your garment is returned to us, in unworn condition within 24 hours of receipt of the garment. Regrettably, due to the nature of our services, refunds cannot be given for damages that are not subject to our fault. This policy is for all garments that we have cleaned, altered and repaired.</p>
+        <p>For garments that may have been damaged in the cleaning process; we must be notified within 24 hours from the time of pickup or delivery. We will request that you file a claim. The claims process can not be started using digital images. The factory will require the garment to be returned back to them for further investigation. The process will take somewhere from 3-8 weeks. We will follow a depreciation chart set by International Fabric Care Institute.</p>
+        <p>While we use highly skilled individuals in our industry, unfortunately we cannot guarantee stain removal. Our staff will make recommendations about the possibility of stain removal; but stain removal for certain stain/fabric/dye combinations is impossible to predict until the stains are treated and garment cleaned. AlterCleaners cannot offer price reductions or refunds for stains not removed during the cleaning process. We will re-clean your garment on a complimentary basis (as above) provided it is returned to us in unworn condition within 60 days of service.</p>
+        <p>For garments altered, repaired or tailored by AlterCleaners, we will correct any issues of fit on a complimentary basis provided that the garment is returned to us within 60 days from the date of drop off. Fit issues that will be addressed on a complimentary basis must be part of the original alteration. Repairs will be addressed at no additional charge, provided that the issue is within the scope of the original repair. Repairs or alterations not part of the original description that need to be addressed will be charged for.</p>
       </div>
     </section>
 
@@ -162,43 +513,40 @@
         <div class="section-head section-head--center">
           <span class="section-head__label">Visit Us</span>
           <h2 class="section-head__title">Contact</h2>
+          <div class="section-head__ornament"><span></span></div>
         </div>
         <div class="contact__grid">
-          <div class="contact__info">
-            <div class="contact__block">
-              <h3>Address</h3>
-              <p>
-                201 Spear St, Suite 180<br />
-                San Francisco, CA 94105
-              </p>
-              <a href="https://maps.google.com/?q=201+Spear+Street+San+Francisco+CA+94105" target="_blank" rel="noopener" class="link-arrow">Get directions →</a>
+          <div>
+            <div class="contact-cta">
+              <h3>Get in Touch</h3>
+              <p class="contact-cta__lead">Drop us a line — we'd love to hear from you.</p>
+              <a href="mailto:services@altercleaners.com" class="btn btn--primary btn--large">services@altercleaners.com</a>
+              <p style="margin-top: 1.25rem; color: var(--muted);">Or call <a href="tel:4157779995">(415) 777-9995</a></p>
             </div>
-            <div class="contact__block">
-              <h3>Phone</h3>
-              <p><a href="tel:4157779995">(415) 777-9995</a></p>
-            </div>
-            <div class="contact__block">
-              <h3>Email</h3>
-              <p><a href="mailto:services@altercleaners.com">services@altercleaners.com</a></p>
-            </div>
-            <div class="contact__block">
-              <h3>Hours</h3>
-              <p>
-                Mon–Thu 8:30am – 5:30pm<br />
-                Fri 8:30am – 5:00pm<br />
-                Sat 10:00am – 3:00pm<br />
-                Sun Closed
-              </p>
+            <div style="margin-top: 2rem;">
+              <div class="contact__block">
+                <h3>Address</h3>
+                <p>
+                  201 Spear St, Suite 180<br />
+                  San Francisco, CA 94105
+                </p>
+                <a href="https://maps.google.com/?q=201+Spear+Street+San+Francisco+CA+94105" target="_blank" rel="noopener" class="link-arrow" style="display: inline-block; margin-top: 0.75rem;">Get directions</a>
+              </div>
+              <div class="contact__block">
+                <h3>Hours</h3>
+                <p>
+                  Mon–Thu 8:30am – 5:30pm<br />
+                  Fri 8:30am – 5:00pm<br />
+                  Sat 10:00am – 3:00pm<br />
+                  Sun Closed
+                </p>
+              </div>
             </div>
           </div>
           <div class="contact__map">
             <iframe
               title="SOMA AlterCleaners location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.9476276267023!2d-122.39420388440692!3d37.79126711898299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806517720279%3A0xad77dd56d47ddd5f!2s201+Spear+Street!5e0!3m2!1sen!2sus!4v1566231385126!5m2!1sen!2sus"
-              width="100%"
-              height="100%"
-              style="border:0"
-              allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
@@ -210,8 +558,8 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <img src="../assets/alter-logo3.png" alt="SOMA AlterCleaners" class="footer__logo" width="120" />
-      <p class="footer__copy">© 2026 SOMA AlterCleaners. All rights reserved.</p>
+      <img src="../assets/logow.png" alt="SOMA AlterCleaners" class="footer__logo" width="120" />
+      <p>© 2026 SOMA AlterCleaners. All rights reserved.</p>
       <div class="footer__links">
         <a href="tel:4157779995">415-777-9995</a>
         <a href="mailto:services@altercleaners.com">services@altercleaners.com</a>
@@ -221,6 +569,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>
